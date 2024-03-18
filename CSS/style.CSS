@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(122, 12, 165);
+}
+
+ .imagen{
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.float{
+    text-align: center;
+    
+}
+
+.texto{
+    text-align: center;
+    
+}
+.h11{
+    color: aqua;
+}
+.h2{
+    color: #fff;
+}
+.texto2{
+    text-align: center;
+}
