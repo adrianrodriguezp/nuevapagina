@@ -278,3 +278,210 @@ header {
 .box__card-primary:hover p {
     background-color: rgb(243, 240, 45);
 }
+
+/*Sobre nosotros*/
+
+.container__about{
+    padding: 100px 0px;
+    background: var(--background-color);
+    margin-top: 100px;
+    background-color: rgb(243, 240, 45);
+}
+
+.about{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text__about{
+    width: 100%;
+    padding-right: 40px;
+}
+
+.text__about h1{
+    color: var(--color_text-secundary);
+    font-weight: 600;
+}
+
+.text__about p{
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color: var(--color_text-tertiary);
+}
+
+
+.image__about{
+    width: 100%;
+    display: flex;
+    
+}
+
+.image__about img{
+    width: 300px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+/*Servicios*/
+
+.card__service img{
+    width: 200px;
+}
+
+.card__service i{
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: var(--color_text-primary);
+}
+
+
+.tittle-cards{
+    max-width: 800px;
+    margin: auto;
+}
+
+.tittle-cards p{
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.tittle-cards h1{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.container-card {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    flex-wrap: wrap; /* Asegura que los elementos se envuelvan a la siguiente línea */
+}
+
+.card-person {
+    width: calc(25% - 40px); /* 25% para mostrar 4 cartas */
+    margin: 20px;
+    border-radius: 25px;
+    overflow: hidden;
+    background: #ffffff;
+    cursor: default;
+    display: flex;
+    flex-direction: column; /* Para que el contenido se alinee verticalmente */
+    justify-content: center;
+    align-items: center;
+}
+
+.card-person img {
+    width: 100px;
+    height: 100px;
+    height: auto; /* Evita que la imagen se estire */
+    border-radius: 25px 25px 0 0; /* Para que la esquina superior de la imagen sea redondeada */
+}
+
+.card-person .content-person {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-person .content-person p {
+    line-height: 1.5;
+}
+
+.card-person .content-person h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.card-person .content-person a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+/*prueba*/
+
+.contact-info {
+    width: 40%;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.map {
+    width: 50%;
+    padding: 40px;
+}
+
+.map img {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+
