@@ -15,7 +15,7 @@
     --color_text-secundary: #101E2C;
     --color_text-tertiary: #485663;
     --main_color-primary: #00bf0a;
-    --main_color-secundary: rgb(53, 235, 68);
+   
     --background-color: #FAFBFE;
     --lowText_font_size: 16px;
     --text_size_title: 40px;
@@ -251,7 +251,7 @@ header {
 .box__card-primary:hover{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
-    background-color: rgb(243, 240, 45);
+    
     border-radius: 50px;
     
     
@@ -266,18 +266,13 @@ header {
     font-weight: 500;    
     transition: all 200ms;
 }
-.box__card-primary:hover h2 {
-    background-color: rgb(243, 240, 45);
-  
-}
+
 
 .box__card-primary p{
     margin-top: 20px;
     transition: all 200ms;
 }
-.box__card-primary:hover p {
-    background-color: rgb(243, 240, 45);
-}
+
 
 /*Sobre nosotros*/
 
@@ -285,7 +280,7 @@ header {
     padding: 100px 0px;
     background: var(--background-color);
     margin-top: 100px;
-    background-color: rgb(243, 240, 45);
+    
 }
 
 .about{
